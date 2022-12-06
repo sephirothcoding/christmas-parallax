@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Christmas Parallax</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<img id="santa" src="https://assets.codepen.io/974948/santa-sled.png" />
+
+<div id="scene">
+  <!-- Background -->
+  <div class="background" data-depth="0.2">
+    <img id="background-left" src="https://assets.codepen.io/974948/christmas-night-2799075_1280.jpg" />
+  </div>
+  <!-- Snow Hills -->
+  <div class="snow back" data-depth="0.6">
+    <img src="https://assets.codepen.io/974948/snowyHills.png" />
+  </div>
+  <div class="snow front" data-depth="0.6">
+    <img id="snow-reverse" src="https://assets.codepen.io/974948/snowyHills.png" />
+  </div>
+  <!-- Christmas Tree -->
+  <div class="tree-container" data-depth="0.6">
+    <img id="tree" src="https://assets.codepen.io/974948/christmasTree.png" />
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
